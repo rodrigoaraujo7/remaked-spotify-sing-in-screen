@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
     <title>Sing In - Spotify</title>
+    <link rel="icon" href="./public/images/logo.ico">
 
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -14,12 +15,25 @@
         <div class="text">
             <h1>Sign up for free to start listening.</h1>  
         </div>
-        
-        <div class="square">
-            <form action="">
 
-            </form>
-        </div>
+        <form action="">
+            <img src="public/images/spotify-logo.png" alt="Logo" class="logo">
+
+            <div class="inputs">
+                <hr>
+                <h2>Sing in with your email adress</h2>
+                <input type="email" placeholder="Enter your email" required> 
+                <input type="text" placeholder="Enter your name" required>
+                <input type="password" placeholder="Create  a password" required>
+                <input type="password" placeholder="Confirm your password" required>
+            </div>
+
+            <div class="submits">
+                <input type="submit" value="Sing up">
+                <input type="submit" value="sing up with facebook">
+                <p>Have an account? <a href="https://github.com/rodrigoaraujo7">Login in</a></p>
+            </div>
+        </form>
     </div>
 
     <script src="//cdn.jsdelivr.net/npm/less" ></script>
